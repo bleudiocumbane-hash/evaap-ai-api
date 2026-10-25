@@ -4,11 +4,11 @@
   "version": "1.0.0",
   "private": true,
   "description": "API da plataforma Evaap AI",
-  "main": "dist/server.js",
+  "type": "module",
   "scripts": {
     "build": "tsc",
-    "start": "node dist/server.js",
-    "dev": "tsx watch src/server.ts"
+    "start": "node dist/servidor.js",
+    "dev": "tsx watch servidor.ts"
   },
   "engines": {
     "node": ">=20"
